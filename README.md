@@ -53,6 +53,12 @@ From the command line, quickly and easily find a tweet matching some keywords an
     nvm use
     ```
 
+  - ### Install Depencies
+    Run the usual npm isntall command.
+    ```
+    npm i
+    ```
+
   - ### Run the start script
     This project uses the familiar old `start` script to run the whole twitter engagement process.
     ```
@@ -112,7 +118,7 @@ You can use `--` to pass arguments into script, and these flags allow you to dis
 
 Example:
 ```
-npm start -- --keywords="Penguins are my jam" --no-like --no-follow --no-retweet --min-wait-time=200 --max-wait-time=800 --quiet
+npm start -- --keywords="love Javascript" --no-like --no-follow --no-retweet --min-wait-time=200 --max-wait-time=800 --quiet
 ```
 
 <br/>
