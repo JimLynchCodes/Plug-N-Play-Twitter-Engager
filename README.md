@@ -1,6 +1,13 @@
 # Plug N' Play Twitter Engager
 
+
+<img src="./art/plug-n-play-twitter-engager-logo.png" alt="plug-n-play-twitter-engager-logo" align="right" width="175"/>
+
+<div >
+<p margin="30px">
 From the command line, quickly and easily find a tweet matching some keywords and then like it, retweet it, and follow the user who tweeted it!
+</p>
+</div>
 
 <br/>
 
