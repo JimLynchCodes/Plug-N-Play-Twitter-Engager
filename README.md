@@ -2,7 +2,7 @@
 
 From the command line, quickly and easily find a tweet matching some keywords and then like it, retweet it, and follow the user who tweeted it!
 
----
+<br/>
 
 ## How It Works
 
@@ -22,7 +22,6 @@ From the command line, quickly and easily find a tweet matching some keywords an
 
 ## Step 1 - Plug in your credentials.
 
-
 - ### Get Credentials From Twitter
   First, you'll need to create an app here: https://developer.twitter.com/
 
@@ -31,8 +30,6 @@ From the command line, quickly and easily find a tweet matching some keywords an
   The most difficult part of this all is waiting for Twitter to get back to you... 🙄
 
   Once your app has been approved, you can find the credentials by going to Apps -> Details -> Keys & Tokens.
-
-<br/>
 
 - ### Create a Config.js file
 
@@ -61,9 +58,9 @@ From the command line, quickly and easily find a tweet matching some keywords an
     ```
     npm start
     ```
-
-    <br/>
     
+<br/>
+
 ## Step 3 - Schedule As A Cron Job
 
   - ### Get a Server
@@ -71,8 +68,8 @@ From the command line, quickly and easily find a tweet matching some keywords an
     
     These can also be scheduled on your local machine, but they won't run if it is turned off or asleep.
     
-    <br/>
-
+     <br/>
+     
   - ### Edit The Crontab
     
     To open the crontab editor:
@@ -92,10 +89,10 @@ From the command line, quickly and easily find a tweet matching some keywords an
      5 4 * * * npm start --no-retweet --no-follow ~/path/to/project/temporary-cron-logs.log 2&>1
     ```
     
-    You may find that the cron execution environment does not have access to necessary things such as `nvm`. In this case it is recommended to schedule the cron job to execute a bash file which calls `npm start` after the proper setup instead of running the `npm start` command directly. Create a bash file like the one included here and allow your shell's current user to execute it.
-    ```
-    chmod +x run-script.sh
-    ```
+You may find that the cron execution environment does not have access to necessary things such as `nvm`. In this case it is recommended to schedule the cron job to execute a bash file which calls `npm start` after the proper setup instead of running the `npm start` command directly. Create a bash file like the one included here and allow your shell's current user to execute it.
+```
+chmod +x run-script.sh
+```
 
 <br/>
 
@@ -120,9 +117,6 @@ npm start -- --keywords="Penguins are my jam" --no-like --no-follow --no-retweet
 
 <br/>
 
-TODO - Add flags for `--minWaitTime` and `--max-wait-time`
-
-<br/>
 
 ## Wait Times
 In order to simulate actual user interactions on Twitter, the requests for like, retweet, and follow are not executed simultaneously. Instead, the _like_ is executed immediately, and then a random amount of time betwen the `minWaitTime` and `maxWaitTime` goes by. After this, the _retweet_ is executed, a new random amount of time within bounds in chosen, and after waiting this much time the _follow_ is executed.
