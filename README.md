@@ -120,7 +120,7 @@ You can use `--` to pass arguments into script, and these flags allow you to dis
 | `--no-follow` | None          | Skips over liking the tweet when the script is run. |
 | `--min-wait-time` | Integer          | Minimum number of milliseconds to wait between engagement actions. |
 | `--max-wait-time` | Integer          | Maximum number of milliseconds to wait between engagement actions. |
-| `--quiet` | None          | Skips over liking the tweet when the script is run. |
+| `--quiet` | None          | Much shorter logs. |
 
 
 Example:
