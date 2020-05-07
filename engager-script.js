@@ -8,12 +8,10 @@ const followUser = require('./twit-functions/follow-user')
 const config = require('./config.js');
 const constants = require('./constants')
 
-module.exports = joinGiveaway = () => {
+engage = async () => {
 
-    try {
-
-        return new Promise(async resolve => {
-
+    return new Promise(async resolve => {
+        try {
             const args = process.argv.slice(2)
 
             const keywords = getArgValues(args, constants.KEYWORDS_FLAG) || config.keywords
@@ -44,8 +42,6 @@ module.exports = joinGiveaway = () => {
             logger.info(`Fulltweet: ${JSON.stringify(tweet, null, 2)}`)
 
             const tweeterId = tweet.user.id_str
-            logger.info(`User who tweeted id: https://twitter.com/intent/user?user_id=${tweeterId}`)
-            logger.info(`Tweet: https://twitter.com/_/status/${tweetId}`)
 
             const waitTimeUntilRetweet = getRandomTimeWithinBounds(minWaitTime, maxWaitTime)
             const additionalWaitTimeUntilFollow = getRandomTimeWithinBounds(minWaitTime, maxWaitTime)
@@ -81,26 +77,32 @@ module.exports = joinGiveaway = () => {
 
             }, waitTimeUntilRetweet)
 
-        }).catch(err => {
+
+        }
+        catch (err) {
             return Promise.reject(err)
-        })
-    }
-    catch (err) {
-        return Promise.reject(err)
-    }
+        }
+
+    })
 
 }
 
+module.exports = {
+    engage
+}
+
+/** Utility function to pull the value off of a flag that takes one */
 const getArgValues = (args, flag) => {
 
     const argToFind = args.find(arg => arg.includes(flag))
 
-    return argToFind &&
-        argToFind.substring(
-            flag.length + 1,
-            argToFind.length)
+    return argToFind && argToFind.substring(flag.length + 1, argToFind.length)
 }
 
+/**
+ *  Utility function to generate the amount of time to wait between engagement interactions.
+ *  Arguments and return time are all in milliseconds.
+ */
 const getRandomTimeWithinBounds = (min, max) => {
 
     if (max < min)

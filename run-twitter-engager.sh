@@ -13,5 +13,5 @@ cd ~/Git-Projects/Plug-N-Play-Twitter-Engager/
 # Use project's preferred node version from .nvmrc file.
 nvm use
 
-# Run the cron job(s)!
+# Run the cron job!
 npm start

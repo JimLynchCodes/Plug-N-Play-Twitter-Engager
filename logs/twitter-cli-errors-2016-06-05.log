@@ -7,3 +7,4 @@
 {"level":"error"}
 {"message":"Any errors: ReferenceError: quitFlag is not defined","level":"error"}
 {"message":"Any errors: ReferenceError: quietF is not defined","level":"error"}
+{"message":"Any errors: TypeError: engagerScript is not a function","level":"error"}

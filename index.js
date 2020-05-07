@@ -15,13 +15,13 @@ const main = async () => {
     else
         logger.info('Starting Twitter Engager!')
 
-    await engagerScript()
+    await engagerScript.engage()
 
-    logger.info('Twitter Engager has completed successfully!')
+    logger.info('\n\nTwitter Engager has completed successfully! 🤖\n')
 
     const memUsage = process.memoryUsage()
 
-    logger.info('mem used: ~ ' + (memUsage.rss / 1024 / 1024).toFixed(1), 1) + "Gb"
+    logger.info('mem used: ' + (memUsage.rss / 1024 / 1024).toFixed(1) + "mb")
 
 }
 

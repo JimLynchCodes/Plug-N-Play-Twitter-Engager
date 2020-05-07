@@ -1074,3 +1074,187 @@
 {"message":"Followed! User!","level":"info"}
 {"message":"Twitter Engager has completed successfully!","level":"info"}
 {"level":"info","message":"mem used: ~ 49.9"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Command line arg values:\n","level":"info"}
+{"message":"--keywords: Giveaway! like to enter","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: Giveaway! like to enter -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 15","level":"info"}
+{"message":"Fulltweet: {\n  \"created_at\": \"Thu May 07 17:39:21 +0000 2020\",\n  \"id\": 1258451367359897600,\n  \"id_str\": \"1258451367359897607\",\n  \"text\": \"💫 GIVEAWAY TIME💫\\nOne winner will receive these items as a lil thank you for the support I've found on Twitter 💜 End… https://t.co/qf44udDS8f\",\n  \"truncated\": true,\n  \"metadata\": {\n    \"iso_language_code\": \"en\",\n    \"result_type\": \"recent\"\n  },\n  \"source\": \"<a href=\\\"http://twitter.com/download/android\\\" rel=\\\"nofollow\\\">Twitter for Android</a>\",\n  \"in_reply_to_status_id\": null,\n  \"in_reply_to_status_id_str\": null,\n  \"in_reply_to_user_id\": null,\n  \"in_reply_to_user_id_str\": null,\n  \"in_reply_to_screen_name\": null,\n  \"user\": {\n    \"id\": 1251721619174760400,\n    \"id_str\": \"1251721619174760450\",\n    \"name\": \"🤍CC🤍 💫GIVEAWAY PINNED💫\",\n    \"screen_name\": \"CCmakesthings_\",\n    \"location\": \"\",\n    \"description\": \"24 👩‍🎨♌ new webstore owner 💫 love to sew, draw and make jewelry 🤍 Texas🤠 Death metal🤘 customs open 🌼\",\n    \"url\": \"https://t.co/soqKYbhwLK\",\n    \"entities\": {\n      \"url\": {\n        \"urls\": [\n          {\n            \"url\": \"https://t.co/soqKYbhwLK\",\n            \"expanded_url\": \"http://ccmakesthings.bigcartel.com\",\n            \"display_url\": \"ccmakesthings.bigcartel.com\",\n            \"indices\": [\n              0,\n              23\n            ]\n          }\n        ]\n      },\n      \"description\": {\n        \"urls\": []\n      }\n    },\n    \"protected\": false,\n    \"followers_count\": 141,\n    \"friends_count\": 411,\n    \"listed_count\": 0,\n    \"created_at\": \"Sun Apr 19 03:58:00 +0000 2020\",\n    \"favourites_count\": 682,\n    \"utc_offset\": null,\n    \"time_zone\": null,\n    \"geo_enabled\": false,\n    \"verified\": false,\n    \"statuses_count\": 600,\n    \"lang\": null,\n    \"contributors_enabled\": false,\n    \"is_translator\": false,\n    \"is_translation_enabled\": false,\n    \"profile_background_color\": \"F5F8FA\",\n    \"profile_background_image_url\": null,\n    \"profile_background_image_url_https\": null,\n    \"profile_background_tile\": false,\n    \"profile_image_url\": \"http://pbs.twimg.com/profile_images/1258451593424494596/SSPlmhlZ_normal.jpg\",\n    \"profile_image_url_https\": \"https://pbs.twimg.com/profile_images/1258451593424494596/SSPlmhlZ_normal.jpg\",\n    \"profile_banner_url\": \"https://pbs.twimg.com/profile_banners/1251721619174760450/1588708001\",\n    \"profile_link_color\": \"1DA1F2\",\n    \"profile_sidebar_border_color\": \"C0DEED\",\n    \"profile_sidebar_fill_color\": \"DDEEF6\",\n    \"profile_text_color\": \"333333\",\n    \"profile_use_background_image\": true,\n    \"has_extended_profile\": true,\n    \"default_profile\": true,\n    \"default_profile_image\": false,\n    \"following\": false,\n    \"follow_request_sent\": false,\n    \"notifications\": false,\n    \"translator_type\": \"none\"\n  },\n  \"geo\": null,\n  \"coordinates\": null,\n  \"place\": null,\n  \"contributors\": null,\n  \"is_quote_status\": false,\n  \"retweet_count\": 7,\n  \"favorite_count\": 9,\n  \"favorited\": false,\n  \"retweeted\": false,\n  \"possibly_sensitive\": false,\n  \"lang\": \"en\"\n}","level":"info"}
+{"message":"User who tweeted id: https://twitter.com/intent/user?user_id=1251721619174760450","level":"info"}
+{"message":"Tweet: https://twitter.com/_/status/1258451367359897607","level":"info"}
+{"message":"Calculated random amount of time within bounds: 746","level":"info"}
+{"message":"Calculated random amount of time within bounds: 527","level":"info"}
+{"message":"Liking tweet!1258451367359897607","level":"info"}
+{"message":"Liked 1258451367359897607!","level":"info"}
+{"message":"Retweeting tweet!1258451367359897607","level":"info"}
+{"message":"Retweeted tweet!","level":"info"}
+{"message":"Following user!1251721619174760450","level":"info"}
+{"message":"Followed! User!","level":"info"}
+{"message":"Twitter Engager has completed successfully!","level":"info"}
+{"level":"info","message":"mem used: ~ 50.0"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Command line arg values:\n","level":"info"}
+{"message":"--keywords: Giveaway! like to enter","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: Giveaway! like to enter -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 38","level":"info"}
+{"message":"Fulltweet: {\n  \"created_at\": \"Thu May 07 16:22:32 +0000 2020\",\n  \"id\": 1258432035816964000,\n  \"id_str\": \"1258432035816964101\",\n  \"text\": \"Hey guys! I am doing a giveaway of $20 Cashapp or paypal or fortnite Vbks. To enter you need to: Starts at 6pm est… https://t.co/4X8f4euQct\",\n  \"truncated\": true,\n  \"metadata\": {\n    \"iso_language_code\": \"en\",\n    \"result_type\": \"recent\"\n  },\n  \"source\": \"<a href=\\\"http://twitter.com/download/android\\\" rel=\\\"nofollow\\\">Twitter for Android</a>\",\n  \"in_reply_to_status_id\": null,\n  \"in_reply_to_status_id_str\": null,\n  \"in_reply_to_user_id\": null,\n  \"in_reply_to_user_id_str\": null,\n  \"in_reply_to_screen_name\": null,\n  \"user\": {\n    \"id\": 1002403152,\n    \"id_str\": \"1002403152\",\n    \"name\": \"xChicaMagnusx\",\n    \"screen_name\": \"xchicamagnusx\",\n    \"location\": \"Miami, FL\",\n    \"description\": \"Streamer Gamer girl\\n\\nMixer: xChicaMagnusx\\nTwitch: ChicaMagnus\",\n    \"url\": null,\n    \"entities\": {\n      \"description\": {\n        \"urls\": []\n      }\n    },\n    \"protected\": false,\n    \"followers_count\": 53,\n    \"friends_count\": 116,\n    \"listed_count\": 0,\n    \"created_at\": \"Mon Dec 10 20:21:21 +0000 2012\",\n    \"favourites_count\": 1454,\n    \"utc_offset\": null,\n    \"time_zone\": null,\n    \"geo_enabled\": false,\n    \"verified\": false,\n    \"statuses_count\": 442,\n    \"lang\": null,\n    \"contributors_enabled\": false,\n    \"is_translator\": false,\n    \"is_translation_enabled\": false,\n    \"profile_background_color\": \"C0DEED\",\n    \"profile_background_image_url\": \"http://abs.twimg.com/images/themes/theme1/bg.png\",\n    \"profile_background_image_url_https\": \"https://abs.twimg.com/images/themes/theme1/bg.png\",\n    \"profile_background_tile\": false,\n    \"profile_image_url\": \"http://pbs.twimg.com/profile_images/1250655895144534018/-ddssUD0_normal.jpg\",\n    \"profile_image_url_https\": \"https://pbs.twimg.com/profile_images/1250655895144534018/-ddssUD0_normal.jpg\",\n    \"profile_banner_url\": \"https://pbs.twimg.com/profile_banners/1002403152/1581952921\",\n    \"profile_link_color\": \"1DA1F2\",\n    \"profile_sidebar_border_color\": \"C0DEED\",\n    \"profile_sidebar_fill_color\": \"DDEEF6\",\n    \"profile_text_color\": \"333333\",\n    \"profile_use_background_image\": true,\n    \"has_extended_profile\": true,\n    \"default_profile\": true,\n    \"default_profile_image\": false,\n    \"following\": false,\n    \"follow_request_sent\": false,\n    \"notifications\": false,\n    \"translator_type\": \"none\"\n  },\n  \"geo\": null,\n  \"coordinates\": null,\n  \"place\": null,\n  \"contributors\": null,\n  \"is_quote_status\": false,\n  \"retweet_count\": 3,\n  \"favorite_count\": 5,\n  \"favorited\": false,\n  \"retweeted\": false,\n  \"possibly_sensitive\": false,\n  \"lang\": \"en\"\n}","level":"info"}
+{"message":"Calculated random amount of time within bounds: 582","level":"info"}
+{"message":"Calculated random amount of time within bounds: 627","level":"info"}
+{"message":"Liked tweet! https://twitter.com/_/status/1258432035816964101","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1258432035816964101","level":"info"}
+{"message":"Following user!1002403152","level":"info"}
+{"message":"Followed User! https://twitter.com/intent/user?user_id=1002403152","level":"info"}
+{"message":"Twitter Engager has completed successfully!","level":"info"}
+{"level":"info","message":"mem used: ~ 49.6"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Command line arg values:\n","level":"info"}
+{"message":"--keywords: Giveaway! like to enter","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: Giveaway! like to enter -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 17","level":"info"}
+{"message":"Fulltweet: {\n  \"created_at\": \"Thu May 07 17:30:43 +0000 2020\",\n  \"id\": 1258449193363964000,\n  \"id_str\": \"1258449193363963915\",\n  \"text\": \"IT'S GIVEAWAY TIME!! 🤩  Enter to win a FREE Energy Saving Kit (worth around $90)\\n\\nTo enter: \\n1️⃣ Like this tweet… https://t.co/Ls6AUSyZbT\",\n  \"truncated\": true,\n  \"metadata\": {\n    \"iso_language_code\": \"en\",\n    \"result_type\": \"recent\"\n  },\n  \"source\": \"<a href=\\\"https://www.hootsuite.com\\\" rel=\\\"nofollow\\\">Hootsuite Inc.</a>\",\n  \"in_reply_to_status_id\": null,\n  \"in_reply_to_status_id_str\": null,\n  \"in_reply_to_user_id\": null,\n  \"in_reply_to_user_id_str\": null,\n  \"in_reply_to_screen_name\": null,\n  \"user\": {\n    \"id\": 930570573981216800,\n    \"id_str\": \"930570573981216768\",\n    \"name\": \"Empower Me Alberta\",\n    \"screen_name\": \"EmpowerMeAB\",\n    \"location\": \"Suite 1400 - 639 5 Avenue SW Calgary, AB, T2P 0M9\",\n    \"description\": \"Canada’s only energy conservation and education change program designed for and delivered by members of diverse, multilingual, and hard to reach communities.\",\n    \"url\": \"https://t.co/Aj6AT6dvho\",\n    \"entities\": {\n      \"url\": {\n        \"urls\": [\n          {\n            \"url\": \"https://t.co/Aj6AT6dvho\",\n            \"expanded_url\": \"http://empowermeprogram.com\",\n            \"display_url\": \"empowermeprogram.com\",\n            \"indices\": [\n              0,\n              23\n            ]\n          }\n        ]\n      },\n      \"description\": {\n        \"urls\": []\n      }\n    },\n    \"protected\": false,\n    \"followers_count\": 236,\n    \"friends_count\": 232,\n    \"listed_count\": 5,\n    \"created_at\": \"Tue Nov 14 22:58:08 +0000 2017\",\n    \"favourites_count\": 345,\n    \"utc_offset\": null,\n    \"time_zone\": null,\n    \"geo_enabled\": false,\n    \"verified\": false,\n    \"statuses_count\": 673,\n    \"lang\": null,\n    \"contributors_enabled\": false,\n    \"is_translator\": false,\n    \"is_translation_enabled\": false,\n    \"profile_background_color\": \"000000\",\n    \"profile_background_image_url\": \"http://abs.twimg.com/images/themes/theme1/bg.png\",\n    \"profile_background_image_url_https\": \"https://abs.twimg.com/images/themes/theme1/bg.png\",\n    \"profile_background_tile\": false,\n    \"profile_image_url\": \"http://pbs.twimg.com/profile_images/1134172448591556608/4x2vesEf_normal.png\",\n    \"profile_image_url_https\": \"https://pbs.twimg.com/profile_images/1134172448591556608/4x2vesEf_normal.png\",\n    \"profile_banner_url\": \"https://pbs.twimg.com/profile_banners/930570573981216768/1516658898\",\n    \"profile_link_color\": \"007C89\",\n    \"profile_sidebar_border_color\": \"000000\",\n    \"profile_sidebar_fill_color\": \"000000\",\n    \"profile_text_color\": \"000000\",\n    \"profile_use_background_image\": false,\n    \"has_extended_profile\": false,\n    \"default_profile\": false,\n    \"default_profile_image\": false,\n    \"following\": false,\n    \"follow_request_sent\": false,\n    \"notifications\": false,\n    \"translator_type\": \"none\"\n  },\n  \"geo\": null,\n  \"coordinates\": null,\n  \"place\": null,\n  \"contributors\": null,\n  \"is_quote_status\": false,\n  \"retweet_count\": 4,\n  \"favorite_count\": 5,\n  \"favorited\": false,\n  \"retweeted\": false,\n  \"possibly_sensitive\": false,\n  \"lang\": \"en\"\n}","level":"info"}
+{"message":"Calculated random amount of time within bounds: 504","level":"info"}
+{"message":"Calculated random amount of time within bounds: 586","level":"info"}
+{"message":"Liked tweet! https://twitter.com/_/status/1258449193363963915","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1258449193363963915","level":"info"}
+{"message":"Followed User! https://twitter.com/intent/user?user_id=930570573981216768","level":"info"}
+{"message":"\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"level":"info","message":"mem used: ~ 49.5"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Command line arg values:\n","level":"info"}
+{"message":"--keywords: Giveaway! like to enter","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: Giveaway! like to enter -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 24","level":"info"}
+{"message":"Fulltweet: {\n  \"created_at\": \"Thu May 07 17:03:14 +0000 2020\",\n  \"id\": 1258442278001148000,\n  \"id_str\": \"1258442278001147909\",\n  \"text\": \"✨chibi giveaway✨\\nhow to enter: \\n\\nfollow me (if +18 follow my nsfw acc to! @n4nsfw)\\nfollow me on ig @/v4n4.00\\nRetwee… https://t.co/6dDrDvsk8X\",\n  \"truncated\": true,\n  \"metadata\": {\n    \"iso_language_code\": \"en\",\n    \"result_type\": \"recent\"\n  },\n  \"source\": \"<a href=\\\"https://mobile.twitter.com\\\" rel=\\\"nofollow\\\">Twitter Web App</a>\",\n  \"in_reply_to_status_id\": null,\n  \"in_reply_to_status_id_str\": null,\n  \"in_reply_to_user_id\": null,\n  \"in_reply_to_user_id_str\": null,\n  \"in_reply_to_screen_name\": null,\n  \"user\": {\n    \"id\": 1159997201441054700,\n    \"id_str\": \"1159997201441054720\",\n    \"name\": \"V4N4\",\n    \"screen_name\": \"V4N4s\",\n    \"location\": \"\",\n    \"description\": \"❤ digital young artist ❤\\n⪢ commissions and adoptables ⪡\",\n    \"url\": \"https://t.co/bKLrj8lfYZ\",\n    \"entities\": {\n      \"url\": {\n        \"urls\": [\n          {\n            \"url\": \"https://t.co/bKLrj8lfYZ\",\n            \"expanded_url\": \"https://www.deviantart.com/v4n4\",\n            \"display_url\": \"deviantart.com/v4n4\",\n            \"indices\": [\n              0,\n              23\n            ]\n          }\n        ]\n      },\n      \"description\": {\n        \"urls\": []\n      }\n    },\n    \"protected\": false,\n    \"followers_count\": 314,\n    \"friends_count\": 59,\n    \"listed_count\": 1,\n    \"created_at\": \"Sat Aug 10 01:17:39 +0000 2019\",\n    \"favourites_count\": 86,\n    \"utc_offset\": null,\n    \"time_zone\": null,\n    \"geo_enabled\": false,\n    \"verified\": false,\n    \"statuses_count\": 44,\n    \"lang\": null,\n    \"contributors_enabled\": false,\n    \"is_translator\": false,\n    \"is_translation_enabled\": false,\n    \"profile_background_color\": \"F5F8FA\",\n    \"profile_background_image_url\": null,\n    \"profile_background_image_url_https\": null,\n    \"profile_background_tile\": false,\n    \"profile_image_url\": \"http://pbs.twimg.com/profile_images/1255307426884190208/3Pey6N_H_normal.jpg\",\n    \"profile_image_url_https\": \"https://pbs.twimg.com/profile_images/1255307426884190208/3Pey6N_H_normal.jpg\",\n    \"profile_banner_url\": \"https://pbs.twimg.com/profile_banners/1159997201441054720/1588127597\",\n    \"profile_link_color\": \"1DA1F2\",\n    \"profile_sidebar_border_color\": \"C0DEED\",\n    \"profile_sidebar_fill_color\": \"DDEEF6\",\n    \"profile_text_color\": \"333333\",\n    \"profile_use_background_image\": true,\n    \"has_extended_profile\": false,\n    \"default_profile\": true,\n    \"default_profile_image\": false,\n    \"following\": false,\n    \"follow_request_sent\": false,\n    \"notifications\": false,\n    \"translator_type\": \"none\"\n  },\n  \"geo\": null,\n  \"coordinates\": null,\n  \"place\": null,\n  \"contributors\": null,\n  \"is_quote_status\": false,\n  \"retweet_count\": 12,\n  \"favorite_count\": 18,\n  \"favorited\": false,\n  \"retweeted\": false,\n  \"possibly_sensitive\": false,\n  \"lang\": \"en\"\n}","level":"info"}
+{"message":"Calculated random amount of time within bounds: 462","level":"info"}
+{"message":"Calculated random amount of time within bounds: 614","level":"info"}
+{"message":"Liked tweet! https://twitter.com/_/status/1258442278001147909","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1258442278001147909","level":"info"}
+{"message":"Followed User! https://twitter.com/intent/user?user_id=1159997201441054720","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"level":"info","message":"mem used: ~ 50.0"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Command line arg values:\n","level":"info"}
+{"message":"--keywords: Giveaway! like to enter","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: Giveaway! like to enter -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 37","level":"info"}
+{"message":"Fulltweet: {\n  \"created_at\": \"Thu May 07 16:43:38 +0000 2020\",\n  \"id\": 1258437344899862500,\n  \"id_str\": \"1258437344899862528\",\n  \"text\": \"DOING A GIVEAWAY IN ROYALE HIGH!\\nHow to enter:\\n-like this tweet\\n-share this tweet\\n-follow for higher chance\\n-retwee… https://t.co/Kloarwj1Ld\",\n  \"truncated\": true,\n  \"metadata\": {\n    \"iso_language_code\": \"en\",\n    \"result_type\": \"recent\"\n  },\n  \"source\": \"<a href=\\\"http://twitter.com/download/android\\\" rel=\\\"nofollow\\\">Twitter for Android</a>\",\n  \"in_reply_to_status_id\": null,\n  \"in_reply_to_status_id_str\": null,\n  \"in_reply_to_user_id\": null,\n  \"in_reply_to_user_id_str\": null,\n  \"in_reply_to_screen_name\": null,\n  \"user\": {\n    \"id\": 1233707289774874600,\n    \"id_str\": \"1233707289774874625\",\n    \"name\": \"《§hīřø-ķůñ》\",\n    \"screen_name\": \"XxShiro_kunxX\",\n    \"location\": \"Brooklyn, NY\",\n    \"description\": \"hello legendary bootiful peeps!\\ntoday is the makeup mega day lol\\ntoday I'm gonna die bye シ︎\",\n    \"url\": null,\n    \"entities\": {\n      \"description\": {\n        \"urls\": []\n      }\n    },\n    \"protected\": false,\n    \"followers_count\": 7,\n    \"friends_count\": 18,\n    \"listed_count\": 0,\n    \"created_at\": \"Sat Feb 29 10:55:26 +0000 2020\",\n    \"favourites_count\": 1,\n    \"utc_offset\": null,\n    \"time_zone\": null,\n    \"geo_enabled\": false,\n    \"verified\": false,\n    \"statuses_count\": 53,\n    \"lang\": null,\n    \"contributors_enabled\": false,\n    \"is_translator\": false,\n    \"is_translation_enabled\": false,\n    \"profile_background_color\": \"F5F8FA\",\n    \"profile_background_image_url\": null,\n    \"profile_background_image_url_https\": null,\n    \"profile_background_tile\": false,\n    \"profile_image_url\": \"http://pbs.twimg.com/profile_images/1258439836190547968/taU4n_HY_normal.jpg\",\n    \"profile_image_url_https\": \"https://pbs.twimg.com/profile_images/1258439836190547968/taU4n_HY_normal.jpg\",\n    \"profile_banner_url\": \"https://pbs.twimg.com/profile_banners/1233707289774874625/1588870453\",\n    \"profile_link_color\": \"1DA1F2\",\n    \"profile_sidebar_border_color\": \"C0DEED\",\n    \"profile_sidebar_fill_color\": \"DDEEF6\",\n    \"profile_text_color\": \"333333\",\n    \"profile_use_background_image\": true,\n    \"has_extended_profile\": true,\n    \"default_profile\": true,\n    \"default_profile_image\": false,\n    \"following\": false,\n    \"follow_request_sent\": false,\n    \"notifications\": false,\n    \"translator_type\": \"none\"\n  },\n  \"geo\": null,\n  \"coordinates\": null,\n  \"place\": null,\n  \"contributors\": null,\n  \"is_quote_status\": false,\n  \"retweet_count\": 6,\n  \"favorite_count\": 6,\n  \"favorited\": false,\n  \"retweeted\": false,\n  \"lang\": \"en\"\n}","level":"info"}
+{"message":"Calculated random amount of time within bounds: 772","level":"info"}
+{"message":"Calculated random amount of time within bounds: 986","level":"info"}
+{"message":"Liked tweet! https://twitter.com/_/status/1258437344899862528","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1258437344899862528","level":"info"}
+{"message":"Followed User! https://twitter.com/intent/user?user_id=1233707289774874625","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: ~ 50.2Mb","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Command line arg values:\n","level":"info"}
+{"message":"--keywords: Giveaway! like to enter","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: Giveaway! like to enter -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 57","level":"info"}
+{"message":"Fulltweet: {\n  \"created_at\": \"Thu May 07 15:37:41 +0000 2020\",\n  \"id\": 1258420748198097000,\n  \"id_str\": \"1258420748198096897\",\n  \"text\": \"🌸🌿𝔸ℝ𝕋 𝔾𝕀𝕍𝔼𝔸𝕎𝔸𝕐/ℝ𝔸𝔽𝔽𝕃𝔼 🌿🌸\\n\\nhow to enter:\\n•follow\\n•like \\n•retweet \\n\\nHello! I hit 100 followers today and I thought it… https://t.co/f7IgAFauhq\",\n  \"truncated\": true,\n  \"metadata\": {\n    \"iso_language_code\": \"en\",\n    \"result_type\": \"recent\"\n  },\n  \"source\": \"<a href=\\\"http://twitter.com/download/android\\\" rel=\\\"nofollow\\\">Twitter for Android</a>\",\n  \"in_reply_to_status_id\": null,\n  \"in_reply_to_status_id_str\": null,\n  \"in_reply_to_user_id\": null,\n  \"in_reply_to_user_id_str\": null,\n  \"in_reply_to_screen_name\": null,\n  \"user\": {\n    \"id\": 1256603590963101700,\n    \"id_str\": \"1256603590963101697\",\n    \"name\": \"Jai 🌿☀️ 《• 𝔸ℝ𝕋 𝔾𝕀𝕍𝔼𝔸𝕎𝔸𝕐 •》\",\n    \"screen_name\": \"Jaislabyrinth\",\n    \"location\": \"some mushroom (she/her)\",\n    \"description\": \"till then 💜🌌\\n\\ndigital art/animation | intp | 🌈 | probably crying to nfr 🦔🌱\",\n    \"url\": null,\n    \"entities\": {\n      \"description\": {\n        \"urls\": []\n      }\n    },\n    \"protected\": false,\n    \"followers_count\": 128,\n    \"friends_count\": 208,\n    \"listed_count\": 0,\n    \"created_at\": \"Sat May 02 15:17:06 +0000 2020\",\n    \"favourites_count\": 175,\n    \"utc_offset\": null,\n    \"time_zone\": null,\n    \"geo_enabled\": false,\n    \"verified\": false,\n    \"statuses_count\": 82,\n    \"lang\": null,\n    \"contributors_enabled\": false,\n    \"is_translator\": false,\n    \"is_translation_enabled\": false,\n    \"profile_background_color\": \"F5F8FA\",\n    \"profile_background_image_url\": null,\n    \"profile_background_image_url_https\": null,\n    \"profile_background_tile\": false,\n    \"profile_image_url\": \"http://pbs.twimg.com/profile_images/1258052285940162562/O3dcUOLe_normal.jpg\",\n    \"profile_image_url_https\": \"https://pbs.twimg.com/profile_images/1258052285940162562/O3dcUOLe_normal.jpg\",\n    \"profile_banner_url\": \"https://pbs.twimg.com/profile_banners/1256603590963101697/1588834764\",\n    \"profile_link_color\": \"1DA1F2\",\n    \"profile_sidebar_border_color\": \"C0DEED\",\n    \"profile_sidebar_fill_color\": \"DDEEF6\",\n    \"profile_text_color\": \"333333\",\n    \"profile_use_background_image\": true,\n    \"has_extended_profile\": true,\n    \"default_profile\": true,\n    \"default_profile_image\": false,\n    \"following\": false,\n    \"follow_request_sent\": false,\n    \"notifications\": false,\n    \"translator_type\": \"none\"\n  },\n  \"geo\": null,\n  \"coordinates\": null,\n  \"place\": null,\n  \"contributors\": null,\n  \"is_quote_status\": false,\n  \"retweet_count\": 5,\n  \"favorite_count\": 11,\n  \"favorited\": false,\n  \"retweeted\": false,\n  \"possibly_sensitive\": false,\n  \"lang\": \"en\"\n}","level":"info"}
+{"message":"Calculated random amount of time within bounds: 956","level":"info"}
+{"message":"Calculated random amount of time within bounds: 981","level":"info"}
+{"message":"Liked tweet! https://twitter.com/_/status/1258420748198096897","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1258420748198096897","level":"info"}
+{"message":"Followed User! https://twitter.com/intent/user?user_id=1256603590963101697","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: ~ 50.5mb","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Command line arg values:\n","level":"info"}
+{"message":"--keywords: Giveaway! like to enter","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: Giveaway! like to enter -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 87","level":"info"}
+{"message":"Fulltweet: {\n  \"created_at\": \"Thu May 07 13:48:20 +0000 2020\",\n  \"id\": 1258393230749708300,\n  \"id_str\": \"1258393230749708290\",\n  \"text\": \"@LeahLovelyyy Yeah I know I was just saying in stead of the diamonds I could enter this giveaway but I also want to… https://t.co/PcAQy8d0cb\",\n  \"truncated\": true,\n  \"metadata\": {\n    \"iso_language_code\": \"en\",\n    \"result_type\": \"recent\"\n  },\n  \"source\": \"<a href=\\\"http://twitter.com/download/android\\\" rel=\\\"nofollow\\\">Twitter for Android</a>\",\n  \"in_reply_to_status_id\": 1258388700624543700,\n  \"in_reply_to_status_id_str\": \"1258388700624543747\",\n  \"in_reply_to_user_id\": 1106281259964223500,\n  \"in_reply_to_user_id_str\": \"1106281259964223488\",\n  \"in_reply_to_screen_name\": \"LeahLovelyyy\",\n  \"user\": {\n    \"id\": 1226944513874239500,\n    \"id_str\": \"1226944513874239488\",\n    \"name\": \"Zoe\",\n    \"screen_name\": \"arixdoja\",\n    \"location\": \"\",\n    \"description\": \"I own Fendi, gucci, balenciaga and chanel wbu? 💜\",\n    \"url\": null,\n    \"entities\": {\n      \"description\": {\n        \"urls\": []\n      }\n    },\n    \"protected\": false,\n    \"followers_count\": 2,\n    \"friends_count\": 31,\n    \"listed_count\": 0,\n    \"created_at\": \"Mon Feb 10 19:02:34 +0000 2020\",\n    \"favourites_count\": 59,\n    \"utc_offset\": null,\n    \"time_zone\": null,\n    \"geo_enabled\": false,\n    \"verified\": false,\n    \"statuses_count\": 42,\n    \"lang\": null,\n    \"contributors_enabled\": false,\n    \"is_translator\": false,\n    \"is_translation_enabled\": false,\n    \"profile_background_color\": \"F5F8FA\",\n    \"profile_background_image_url\": null,\n    \"profile_background_image_url_https\": null,\n    \"profile_background_tile\": false,\n    \"profile_image_url\": \"http://pbs.twimg.com/profile_images/1255845737025454080/NLKLDunB_normal.jpg\",\n    \"profile_image_url_https\": \"https://pbs.twimg.com/profile_images/1255845737025454080/NLKLDunB_normal.jpg\",\n    \"profile_banner_url\": \"https://pbs.twimg.com/profile_banners/1226944513874239488/1585490872\",\n    \"profile_link_color\": \"1DA1F2\",\n    \"profile_sidebar_border_color\": \"C0DEED\",\n    \"profile_sidebar_fill_color\": \"DDEEF6\",\n    \"profile_text_color\": \"333333\",\n    \"profile_use_background_image\": true,\n    \"has_extended_profile\": false,\n    \"default_profile\": true,\n    \"default_profile_image\": false,\n    \"following\": false,\n    \"follow_request_sent\": false,\n    \"notifications\": false,\n    \"translator_type\": \"none\"\n  },\n  \"geo\": null,\n  \"coordinates\": null,\n  \"place\": null,\n  \"contributors\": null,\n  \"is_quote_status\": false,\n  \"retweet_count\": 0,\n  \"favorite_count\": 1,\n  \"favorited\": false,\n  \"retweeted\": false,\n  \"lang\": \"en\"\n}","level":"info"}
+{"message":"Calculated random amount of time within bounds: 932","level":"info"}
+{"message":"Calculated random amount of time within bounds: 402","level":"info"}
+{"message":"Liked tweet! https://twitter.com/_/status/1258393230749708290","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1258393230749708290","level":"info"}
+{"message":"Followed User! https://twitter.com/intent/user?user_id=1226944513874239488","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: 50.3mb","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Any errors: TypeError: engagerScript is not a function","level":"error"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Command line arg values:\n","level":"info"}
+{"message":"--keywords: Giveaway! like to enter","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: Giveaway! like to enter -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 49","level":"info"}
+{"message":"Fulltweet: {\n  \"created_at\": \"Thu May 07 15:59:14 +0000 2020\",\n  \"id\": 1258426173933092900,\n  \"id_str\": \"1258426173933092876\",\n  \"text\": \"Did you know it's Children's Book Week too? Let's celebrate! Have you see our board book giveaway yet? Scroll down… https://t.co/IzP6UziMDh\",\n  \"truncated\": true,\n  \"metadata\": {\n    \"iso_language_code\": \"en\",\n    \"result_type\": \"recent\"\n  },\n  \"source\": \"<a href=\\\"https://mobile.twitter.com\\\" rel=\\\"nofollow\\\">Twitter Web App</a>\",\n  \"in_reply_to_status_id\": null,\n  \"in_reply_to_status_id_str\": null,\n  \"in_reply_to_user_id\": null,\n  \"in_reply_to_user_id_str\": null,\n  \"in_reply_to_screen_name\": null,\n  \"user\": {\n    \"id\": 956639899867852800,\n    \"id_str\": \"956639899867852801\",\n    \"name\": \"jump!inc\",\n    \"screen_name\": \"jumplibrary\",\n    \"location\": \"5357 Penn Ave S, Minneapolis, MN\",\n    \"description\": \"Jump! publishes children’s nonfiction with a focus on curriculum-aligned subjects for emergent through early-fluent readers.📚 #jumpinthewild #jumpbooks\",\n    \"url\": \"https://t.co/L1LggqblGW\",\n    \"entities\": {\n      \"url\": {\n        \"urls\": [\n          {\n            \"url\": \"https://t.co/L1LggqblGW\",\n            \"expanded_url\": \"http://www.jumplibrary.com\",\n            \"display_url\": \"jumplibrary.com\",\n            \"indices\": [\n              0,\n              23\n            ]\n          }\n        ]\n      },\n      \"description\": {\n        \"urls\": []\n      }\n    },\n    \"protected\": false,\n    \"followers_count\": 884,\n    \"friends_count\": 4545,\n    \"listed_count\": 9,\n    \"created_at\": \"Thu Jan 25 21:28:20 +0000 2018\",\n    \"favourites_count\": 800,\n    \"utc_offset\": null,\n    \"time_zone\": null,\n    \"geo_enabled\": false,\n    \"verified\": false,\n    \"statuses_count\": 517,\n    \"lang\": null,\n    \"contributors_enabled\": false,\n    \"is_translator\": false,\n    \"is_translation_enabled\": false,\n    \"profile_background_color\": \"000000\",\n    \"profile_background_image_url\": \"http://abs.twimg.com/images/themes/theme1/bg.png\",\n    \"profile_background_image_url_https\": \"https://abs.twimg.com/images/themes/theme1/bg.png\",\n    \"profile_background_tile\": false,\n    \"profile_image_url\": \"http://pbs.twimg.com/profile_images/956932176305537024/CIgJqyVy_normal.jpg\",\n    \"profile_image_url_https\": \"https://pbs.twimg.com/profile_images/956932176305537024/CIgJqyVy_normal.jpg\",\n    \"profile_banner_url\": \"https://pbs.twimg.com/profile_banners/956639899867852801/1578432342\",\n    \"profile_link_color\": \"FF691F\",\n    \"profile_sidebar_border_color\": \"000000\",\n    \"profile_sidebar_fill_color\": \"000000\",\n    \"profile_text_color\": \"000000\",\n    \"profile_use_background_image\": false,\n    \"has_extended_profile\": false,\n    \"default_profile\": false,\n    \"default_profile_image\": false,\n    \"following\": false,\n    \"follow_request_sent\": false,\n    \"notifications\": false,\n    \"translator_type\": \"none\"\n  },\n  \"geo\": null,\n  \"coordinates\": null,\n  \"place\": null,\n  \"contributors\": null,\n  \"is_quote_status\": false,\n  \"retweet_count\": 2,\n  \"favorite_count\": 2,\n  \"favorited\": false,\n  \"retweeted\": false,\n  \"possibly_sensitive\": false,\n  \"lang\": \"en\"\n}","level":"info"}
+{"message":"Calculated random amount of time within bounds: 608","level":"info"}
+{"message":"Calculated random amount of time within bounds: 1059","level":"info"}
+{"message":"Liked tweet! https://twitter.com/_/status/1258426173933092876","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1258426173933092876","level":"info"}
+{"message":"Followed User! https://twitter.com/intent/user?user_id=956639899867852801","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: 50.1mb","level":"info"}

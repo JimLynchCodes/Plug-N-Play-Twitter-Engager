@@ -4,8 +4,6 @@ const retweetTweet = (Twitter, tweetId) => {
 
     return new Promise((resolve, reject) => {
 
-        logger.info('Retweeting tweet!' + tweetId)
-
         Twitter.post('statuses/retweet/:id', {
             id: tweetId
         }, (err, response) => {
@@ -13,7 +11,7 @@ const retweetTweet = (Twitter, tweetId) => {
                 logger.info(' Error retweeting: ' + err)
                 reject(err)
             }
-            logger.info('Retweeted tweet!')
+            logger.info(`Retweeted tweet! https://twitter.com/_/status/${tweetId}`)
             resolve(response)
         })
 

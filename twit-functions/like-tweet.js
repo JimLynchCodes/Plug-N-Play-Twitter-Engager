@@ -4,8 +4,6 @@ const like = (Twitter, tweetId) => {
 
     return new Promise((resolve, reject) => {
 
-        logger.info('Liking tweet!' + tweetId)
-
         Twitter.post('favorites/create', {
             id: tweetId
         }, (err, response) => {
@@ -15,11 +13,14 @@ const like = (Twitter, tweetId) => {
                 reject(err)
             }
 
-            logger.info('Liked ' + tweetId + '!')
+            logger.info(`Liked tweet! https://twitter.com/_/status/${tweetId}`)
+
             resolve(response)
-        });
+
+        })
 
     })
+
 }
 
 module.exports = like
