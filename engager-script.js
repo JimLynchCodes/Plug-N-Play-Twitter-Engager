@@ -14,7 +14,7 @@ engage = async () => {
         try {
             const args = process.argv.slice(2)
 
-            const keywords = config.keywords || getArgValues(args, constants.KEYWORDS_FLAG) 
+            const keywords = getArgValues(args, constants.KEYWORDS_FLAG) || config.keywords 
             const minWaitTime = parseInt(getArgValues(args, constants.MIN_WAIT_TIME_FLAG) || config.minWaitTime)
             const maxWaitTime = parseInt(getArgValues(args, constants.MAX_WAIT_TIME_FLAG) || config.maxWaitTime)
             const quietFlag = args.find(arg => arg.includes(constants.QUIET_FLAG))

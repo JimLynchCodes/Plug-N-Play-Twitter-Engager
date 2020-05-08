@@ -1692,3 +1692,48 @@
 {"message":"Followed User! https://twitter.com/intent/user?user_id=405192612","level":"info"}
 {"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
 {"message":"mem used: 50.0mb","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/8/2020, 12:16:43 PM","level":"info"}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: Giveaway! like to enter","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: undefined","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: Giveaway! like to enter -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 76","level":"info"}
+{"message":"Tweet favorited property: false","level":"info"}
+{"message":"Calculated random amount of time within bounds: 638","level":"info"}
+{"message":"Calculated random amount of time within bounds: 622","level":"info"}
+{"message":"Something went wrong while LIKING... Error: You have already favorited this status.","level":"info"}
+{"message":"Liked tweet! https://twitter.com/_/status/1258739624786178048","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/8/2020, 12:16:59 PM","level":"info"}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: love python","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: undefined","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: love python -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 56","level":"info"}
+{"message":"Tweet favorited property: false","level":"info"}
+{"message":"Calculated random amount of time within bounds: 765","level":"info"}
+{"message":"Calculated random amount of time within bounds: 543","level":"info"}
+{"message":"Liked tweet! https://twitter.com/_/status/1258566026641489929","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1258566026641489929","level":"info"}
+{"message":"Followed User! https://twitter.com/intent/user?user_id=518129654","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: 49.8mb","level":"info"}
