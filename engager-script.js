@@ -14,21 +14,24 @@ engage = async () => {
         try {
             const args = process.argv.slice(2)
 
-            const keywords = getArgValues(args, constants.KEYWORDS_FLAG) || config.keywords
+            const keywords = config.keywords || getArgValues(args, constants.KEYWORDS_FLAG) 
             const minWaitTime = parseInt(getArgValues(args, constants.MIN_WAIT_TIME_FLAG) || config.minWaitTime)
             const maxWaitTime = parseInt(getArgValues(args, constants.MAX_WAIT_TIME_FLAG) || config.maxWaitTime)
+            const quietFlag = args.find(arg => arg.includes(constants.QUIET_FLAG))
 
             const noLikesArg = args.find(arg => arg.includes(constants.NO_LIKE_FLAG))
             const noRetweetArg = args.find(arg => arg.includes(constants.NO_RETWEET_FLAG))
             const noFollowArg = args.find(arg => arg.includes(constants.NO_FOLLOW_FLAG))
 
-            logger.info('Command line arg values:\n')
+
+            logger.info('Command line arg values:')
             logger.info('--keywords: ' + keywords)
             logger.info('--max-wait-time: ' + minWaitTime)
             logger.info('--min-wait-time: ' + maxWaitTime)
             logger.info('--no-like: ' + noLikesArg)
             logger.info('--no-retweet: ' + noRetweetArg)
             logger.info('--no-follow: ' + noFollowArg)
+            logger.info('--quiet: ' + quietFlag)
 
             logger.info('\nInitializing twitter...')
 
@@ -37,9 +40,13 @@ engage = async () => {
             logger.info('Getting newest unliked matching tweet...')
 
             const tweet = await getNewestUnlikedMatchingTweet(Twitter, keywords)
+            
+            /** Use below logging to see the full tweet object from Twitter. */
+            // logger.info(`Fulltweet: ${JSON.stringify(tweet, null, 2)}`)
+            
+            logger.info(`Tweet favorited property: ${tweet.favorited}`)
 
             const tweetId = tweet.id_str
-            logger.info(`Fulltweet: ${JSON.stringify(tweet, null, 2)}`)
 
             const tweeterId = tweet.user.id_str
 
@@ -76,7 +83,6 @@ engage = async () => {
                 }, additionalWaitTimeUntilFollow)
 
             }, waitTimeUntilRetweet)
-
 
         }
         catch (err) {

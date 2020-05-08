@@ -6,7 +6,6 @@ const main = async () => {
 
     const quietFlag = process.argv.slice(2).find(arg => arg.includes(constants.QUIET_FLAG))
 
-    console.log('quiet flag: ' + quietFlag)
     if (quietFlag) {
         logger.info('Starting in quiet mode...')
         logger.pause()
@@ -14,6 +13,8 @@ const main = async () => {
 
     else
         logger.info('Starting Twitter Engager!')
+
+    logger.info('Current date & time in New York: ' + new Date().toLocaleString("en-US", {timeZone: "America/New_York"}))
 
     await engagerScript.engage()
 
