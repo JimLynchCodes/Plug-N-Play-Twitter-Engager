@@ -13,8 +13,8 @@ cd ~/Git-Projects/Plug-N-Play-Twitter-Engager/
 # Use project's preferred node version from .nvmrc file.
 nvm use
 
-# Run this bash script with arbitrary arguments, and it will call "npm start"
-# with those arguments. If no arguments passed in it just runs "npm start".
+# Allows you to run this bash script with arbitrary arguments. It then calls 
+# "npm start" with those arguments. If no arguments passed in it just runs "npm start".
 npm_parameters=""
 
 if [ "$#" -eq "0" ]; then
