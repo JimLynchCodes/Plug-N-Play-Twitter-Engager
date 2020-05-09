@@ -138,6 +138,17 @@ The defaults for `minWaitTime` and `maxWaitTime` are 400 and 1100 milliseconds, 
 
 <br/>
 
+## Bash Script
+Sometimes when running in a cron environment you need to "setup" again (navigate to the proejct directory, load nvm and node into the PATH, etc.)
+
+There is a bash file in this project, and you can conveniently pass all the arguments you would pass to `npm start` along when you execute the shell script and it will call `npm start` with these additional arguments.
+
+For example:
+```
+./run-twitter-engager.sh --keywords="I like pizza"
+```
+
+
 ## Logs
 All logging is performed using [Winston](https://github.com/winstonjs/winston)'s _info_ and _error_ levels. By default info logs are written to the `./logs` directory into a file prefixed with "logs-", followed by the current calendar date. Similarly, the errors are written in ./logs to a file prefixed "errors-" then followed by the current calendar date.
 
@@ -145,8 +156,9 @@ There is extensive logging in the script for debuggin purposes, but they can be 
 
 <br/>
 
+
 ## Based On Twit
-This project leverages the nice twit library for executing the interactions.
+Shoutout to the nice library [twit](https://github.com/ttezel/twit) This project leverages the for executing the Twitter interactions.
 
 <br/>
 
