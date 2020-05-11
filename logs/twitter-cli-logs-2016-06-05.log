@@ -1949,3 +1949,281 @@
 {"message":"Retweeted tweet! https://twitter.com/_/status/1259847744996478977","level":"info"}
 {"message":" Error following user: Error: You are unable to follow more people at this time. Learn more <a href='http://support.twitter.com/articles/66885-i-can-t-follow-people-follow-limits'>here</a>.","level":"error"}
 {"message":"Followed User! https://twitter.com/intent/user?user_id=1252041378428858371","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 3:20:39 PM","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 3:21:15 PM","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 3:21:36 PM","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:03:41 PM","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:03:52 PM","level":"info"}
+{"message":"args is object","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:04:12 PM","level":"info"}
+{"message":false,"level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:05:29 PM","level":"info"}
+{"message":false,"level":"info"}
+{"0":"--keywords=test","1":"--no-follow[A","level":"info","message":"args is: "}
+{"level":"info","message":"args is a: "}
+{"0":"--keywords=test","1":"--no-follow[A","level":"info","message":"args is: "}
+{"level":"info","message":"args is a: "}
+{"0":"--keywords=test","1":"--no-follow[A","level":"info","message":"args is: "}
+{"level":"info","message":"args is a: "}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: test","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: --no-follow[A","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: test -filter:retweets","level":"info"}
+{"message":"errInvalid or expired token.","code":89,"allErrors":[{"code":89,"message":"Invalid or expired token."}],"twitterReply":{"errors":[{"code":89,"message":"Invalid or expired token."}]},"statusCode":401,"level":"error","stack":"Error: Invalid or expired token.\n    at Object.exports.makeTwitError (/Users/jlynch/Git-Forks/Plug-N-Play-Twitter-Engager/node_modules/twit/lib/helpers.js:74:13)\n    at onRequestComplete (/Users/jlynch/Git-Forks/Plug-N-Play-Twitter-Engager/node_modules/twit/lib/twitter.js:344:25)\n    at Request.<anonymous> (/Users/jlynch/Git-Forks/Plug-N-Play-Twitter-Engager/node_modules/twit/lib/twitter.js:364:7)\n    at Request.emit (events.js:327:22)\n    at Gunzip.<anonymous> (/Users/jlynch/Git-Forks/Plug-N-Play-Twitter-Engager/node_modules/request/request.js:1076:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Gunzip.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1201:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:05:35 PM","level":"info"}
+{"message":false,"level":"info"}
+{"0":"--keywords=test","1":"--no-follow","level":"info","message":"args is: "}
+{"level":"info","message":"args is a: "}
+{"0":"--keywords=test","1":"--no-follow","level":"info","message":"args is: "}
+{"level":"info","message":"args is a: "}
+{"0":"--keywords=test","1":"--no-follow","level":"info","message":"args is: "}
+{"level":"info","message":"args is a: "}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: test","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: --no-follow","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: test -filter:retweets","level":"info"}
+{"message":"errInvalid or expired token.","code":89,"allErrors":[{"code":89,"message":"Invalid or expired token."}],"twitterReply":{"errors":[{"code":89,"message":"Invalid or expired token."}]},"statusCode":401,"level":"error","stack":"Error: Invalid or expired token.\n    at Object.exports.makeTwitError (/Users/jlynch/Git-Forks/Plug-N-Play-Twitter-Engager/node_modules/twit/lib/helpers.js:74:13)\n    at onRequestComplete (/Users/jlynch/Git-Forks/Plug-N-Play-Twitter-Engager/node_modules/twit/lib/twitter.js:344:25)\n    at Request.<anonymous> (/Users/jlynch/Git-Forks/Plug-N-Play-Twitter-Engager/node_modules/twit/lib/twitter.js:364:7)\n    at Request.emit (events.js:327:22)\n    at Gunzip.<anonymous> (/Users/jlynch/Git-Forks/Plug-N-Play-Twitter-Engager/node_modules/request/request.js:1076:12)\n    at Object.onceWrapper (events.js:421:28)\n    at Gunzip.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1201:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:07:05 PM","level":"info"}
+{"message":false,"level":"info"}
+{"0":"--keywords=test","1":"--no-follow","level":"info","message":"args is: "}
+{"level":"info","message":"args is a: "}
+{"0":"--keywords=test","1":"--no-follow","level":"info","message":"args is: "}
+{"level":"info","message":"args is a: "}
+{"0":"--keywords=test","1":"--no-follow","level":"info","message":"args is: "}
+{"level":"info","message":"args is a: "}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: test","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: --no-follow","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: test -filter:retweets","level":"info"}
+{"message":"statuses found: 59","level":"info"}
+{"message":"After filtering out already liked tweets: 59","level":"info"}
+{"message":"Randomly chose tweet at index: 55","level":"info"}
+{"message":"Tweet favorited property: false","level":"info"}
+{"message":"Calculated random amount of time within bounds: 1054","level":"info"}
+{"message":"Calculated random amount of time within bounds: 949","level":"info"}
+{"message":"Liked tweet! https://twitter.com/_/status/1259937859856936960","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1259937859856936960","level":"info"}
+{"message":"NOT following because --no-follow flag was found.","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: 50.1mb","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:07:45 PM","level":"info"}
+{"message":false,"level":"info"}
+{"0":"--keywords=love javascript","1":"--no-follow","level":"info","message":"args is: "}
+{"level":"info","message":"args is a: "}
+{"0":"--keywords=love javascript","1":"--no-follow","level":"info","message":"args is: "}
+{"level":"info","message":"args is a: "}
+{"0":"--keywords=love javascript","1":"--no-follow","level":"info","message":"args is: "}
+{"level":"info","message":"args is a: "}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: love javascript","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: --no-follow","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: love javascript -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 45","level":"info"}
+{"message":"Tweet favorited property: false","level":"info"}
+{"message":"Calculated random amount of time within bounds: 1129","level":"info"}
+{"message":"Calculated random amount of time within bounds: 503","level":"info"}
+{"message":"Liked tweet! https://twitter.com/_/status/1259767544698699778","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1259767544698699778","level":"info"}
+{"message":"NOT following because --no-follow flag was found.","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: 50.5mb","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:15:14 PM","level":"info"}
+{"message":"isdsdsdsds  object","level":"info"}
+{"message":"is ","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:15:47 PM","level":"info"}
+{"message":"isdsdsdsds  object","level":"info"}
+{"message":"is --keywords-foo,--num=42","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:16:37 PM","level":"info"}
+{"message":"isdsdsdsds  object","level":"info"}
+{"message":"is --keywords-foo,--num=42","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:17:20 PM","level":"info"}
+{"message":"isdsdsdsds  object","level":"info"}
+{"message":"is [\"--keywords-foo\",\"--num=42\"]","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:18:09 PM","level":"info"}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: foo","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: undefined","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: foo -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 35","level":"info"}
+{"message":"Tweet favorited property: false","level":"info"}
+{"message":"Calculated random amount of time within bounds: 526","level":"info"}
+{"message":"Calculated random amount of time within bounds: 1068","level":"info"}
+{"message":"Liked tweet! https://twitter.com/_/status/1259939405696872448","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1259939405696872448","level":"info"}
+{"message":"Followed User! https://twitter.com/intent/user?user_id=129480226","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: 49.6mb","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:18:23 PM","level":"info"}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: foo bar","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: undefined","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: foo bar -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 13","level":"info"}
+{"message":"Tweet favorited property: false","level":"info"}
+{"message":"Calculated random amount of time within bounds: 1055","level":"info"}
+{"message":"Calculated random amount of time within bounds: 781","level":"info"}
+{"message":"Liked tweet! https://twitter.com/_/status/1259881301710000131","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1259881301710000131","level":"info"}
+{"message":"Followed User! https://twitter.com/intent/user?user_id=242094358","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: 50.4mb","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:18:36 PM","level":"info"}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: foo bar","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: --no-follow","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: foo bar -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 53","level":"info"}
+{"message":"Tweet favorited property: false","level":"info"}
+{"message":"Calculated random amount of time within bounds: 580","level":"info"}
+{"message":"Calculated random amount of time within bounds: 822","level":"info"}
+{"message":"Liked tweet! https://twitter.com/_/status/1259525550453985280","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1259525550453985280","level":"info"}
+{"message":"NOT following because --no-follow flag was found.","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: 50.1mb","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:27:12 PM","level":"info"}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: Giveaway! like to enter","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: undefined","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: Giveaway! like to enter -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 80","level":"info"}
+{"message":"Tweet favorited property: false","level":"info"}
+{"message":"Calculated random amount of time within bounds: 1077","level":"info"}
+{"message":"Calculated random amount of time within bounds: 1037","level":"info"}
+{"message":"Liked tweet! https://twitter.com/_/status/1259885401768108032","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1259885401768108032","level":"info"}
+{"message":"Followed User! https://twitter.com/intent/user?user_id=1208913993382998018","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: 50.8mb","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:27:25 PM","level":"info"}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: ok then","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: --no-like","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: undefined","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: ok then -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 64","level":"info"}
+{"message":"Tweet favorited property: false","level":"info"}
+{"message":"Calculated random amount of time within bounds: 1022","level":"info"}
+{"message":"Calculated random amount of time within bounds: 908","level":"info"}
+{"message":"NOT liking because --no-like flag was found.","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1259941635141623810","level":"info"}
+{"message":"Followed User! https://twitter.com/intent/user?user_id=1248929280458981376","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: 50.6mb","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:50:12 PM","level":"info"}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: ok then","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: --no-like","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: undefined","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: ok then -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 79","level":"info"}
+{"message":"Tweet favorited property: false","level":"info"}
+{"message":"Calculated random amount of time within bounds: 978","level":"info"}
+{"message":"Calculated random amount of time within bounds: 607","level":"info"}
+{"message":"NOT liking because --no-like flag was found.","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1259946984967938049","level":"info"}
+{"message":"Followed User! https://twitter.com/intent/user?user_id=1252255497413148677","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: 49.9mb","level":"info"}

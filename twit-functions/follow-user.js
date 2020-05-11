@@ -12,7 +12,7 @@ const followUser = (Twitter, userId) => {
                 reject(err)
             }
 
-            logger.info(`Followed User! https://twitter.com/intent/user?user_id=${userId}`);
+            logger.info(`Followed User! https://twitter.com/intent/user?user_id=${userId}`)
 
             resolve(response)
 

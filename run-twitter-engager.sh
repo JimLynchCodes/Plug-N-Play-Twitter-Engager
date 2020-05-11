@@ -17,9 +17,17 @@ nvm use
 # "npm start" with those arguments. If no arguments passed in it just runs "npm start".
 # npm_parameters=""
 
+npm_parameters=""
+
 if [ "$#" -eq "0" ]; then
    npm start
    exit
 fi
 
-eval npm start -- "'$*'"
+for i in $@
+   # printf "%d" $i
+do 
+  npm_parameters="$npm_parameters $i"
+done
+
+eval npm start -- $npm_parameters 

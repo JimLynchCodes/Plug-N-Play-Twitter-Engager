@@ -1,6 +1,6 @@
-const engagerScript = require('./engager-script');
-const logger = require('./logger')
+const engagerScript = require('./engager-script')
 const constants = require('./constants')
+const logger = require('./logger')
 
 const main = async () => {
 

@@ -37,7 +37,7 @@ const getNewestUnlikedMatchingTweet = (Twitter, keywords) => {
 
             const chosenTweet = notAlreadyLikedStatuses[randIndex]
 
-            resolve(chosenTweet);
+            resolve(chosenTweet)
 
         })
 
