@@ -24,15 +24,15 @@ The script should do this:
   - retweets the tweet (with no comment).
   - follows the user who created the tweet.
 
-### - Step 1 - Plug in Your Credentials.
-
-### - Step 2 - Run the Twitter Engager 
-
-### - Step 3 (Optional) - Schedule as a Cron Job.
-
 <br/>
 
 # Usage Guide
+
+#### - Step 1 - Plug in Your Credentials.
+
+#### - Step 2 - Run the Twitter Engager 
+
+#### - Step 3 (Optional) - Schedule as a Cron Job.
 
 ## Step 1 - Plug in Your Credentials.
 
