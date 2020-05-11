@@ -5,7 +5,7 @@
 
 <div >
 <p margin="30px">
-From the command line, quickly and easily find a tweet matching some keywords and then like it, retweet it, and follow the user who tweeted it!
+Easy-to-use command-line tool that searches for a tweet matching some keywords, likes it, retweets it, and follows its creator!
 </p>
 </div>
 
