@@ -8,7 +8,7 @@ const retweetTweet = (Twitter, tweetId) => {
             id: tweetId
         }, (err, response) => {
             if (err) {
-                logger.info(' Error retweeting: ' + err)
+                logger.error(' Error retweeting: ' + err)
                 reject(err)
             }
             logger.info(`Retweeted tweet! https://twitter.com/_/status/${tweetId}`)

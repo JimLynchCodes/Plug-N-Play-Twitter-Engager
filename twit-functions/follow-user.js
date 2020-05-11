@@ -8,7 +8,7 @@ const followUser = (Twitter, userId) => {
             user_id: userId
         }, (err, response) => {
             if (err) {
-                logger.info(' Error following user: ' + err)
+                logger.error(' Error following user: ' + err)
                 reject(err)
             }
 

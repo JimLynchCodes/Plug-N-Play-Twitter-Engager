@@ -18,7 +18,7 @@ const getNewestUnlikedMatchingTweet = (Twitter, keywords) => {
         Twitter.get('search/tweets', params, (err, data) => {
 
             if (err) {
-                logger.info('err', err)
+                logger.error('err', err)
                 reject(err)
             }
 

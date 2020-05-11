@@ -9,7 +9,7 @@ const like = (Twitter, tweetId) => {
         }, (err, response) => {
 
             if (err) {
-                logger.info('Something went wrong while LIKING... ' + err)
+                logger.error('Something went wrong while LIKING... ' + err)
                 reject(err)
             }
 
