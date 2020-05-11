@@ -1926,3 +1926,26 @@
 {"message":"Followed User! https://twitter.com/intent/user?user_id=4885641683","level":"info"}
 {"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
 {"message":"mem used: 49.6mb","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 2:35:32 PM","level":"info"}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: Giveaway! like to enter","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: undefined","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: Giveaway! like to enter -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 90","level":"info"}
+{"message":"Tweet favorited property: false","level":"info"}
+{"message":"Calculated random amount of time within bounds: 980","level":"info"}
+{"message":"Calculated random amount of time within bounds: 853","level":"info"}
+{"message":"Liked tweet! https://twitter.com/_/status/1259847744996478977","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1259847744996478977","level":"info"}
+{"message":" Error following user: Error: You are unable to follow more people at this time. Learn more <a href='http://support.twitter.com/articles/66885-i-can-t-follow-people-follow-limits'>here</a>.","level":"error"}
+{"message":"Followed User! https://twitter.com/intent/user?user_id=1252041378428858371","level":"info"}

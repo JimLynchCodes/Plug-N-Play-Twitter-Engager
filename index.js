@@ -14,7 +14,7 @@ const main = async () => {
     else
         logger.info('Starting Twitter Engager!')
 
-    logger.info('Current date & time in New York: ' + new Date().toLocaleString("en-US", {timeZone: "America/New_York"}))
+    logger.info('Current date & time in New York: ' + new Date().toLocaleString("en-US", { timeZone: "America/New_York" }))
 
     await engagerScript.engage()
 

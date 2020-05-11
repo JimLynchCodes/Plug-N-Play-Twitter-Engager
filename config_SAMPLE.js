@@ -10,4 +10,6 @@ module.exports = {
     maxWaitTime: 1200
 };
 
-// Get creds from: https://developer.twitter.com
+// Copy this code into a config.js and enter creds.
+
+// You can get creds from: https://developer.twitter.com
