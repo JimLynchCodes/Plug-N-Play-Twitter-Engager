@@ -13,21 +13,28 @@ From the command line, quickly and easily find a tweet matching some keywords an
 
 ## How It Works
 
-- Step 1 - Plug in your credentials.
+The script should do this:
 
-- Step 2 - Run the twitter engager script which:
-  This script pulls 100 latest original tweets matching the keywords (excluding retweets) and randomly selects on you haven't already liked, and on behalf on the account whose creds were provided:
+  Pull 100 latest original tweets matching the keywords (excluding retweets),
+
+  then randomly select one that hasn't already been liked,
+
+  and on behalf on the account whose creds were provided:
   - likes the tweet.
   - retweets the tweet (with no comment).
   - follows the user who created the tweet.
 
-- Step 3 (Optional) - Schedule as a cron job.
+### - Step 1 - Plug in Your Credentials.
+
+### - Step 2 - Run the Twitter Engager 
+
+### - Step 3 (Optional) - Schedule as a Cron Job.
 
 <br/>
 
 # Usage Guide
 
-## Step 1 - Plug in your credentials.
+## Step 1 - Plug in Your Credentials.
 
 - ### Get Credentials From Twitter
   First, you'll need to create an app here: https://developer.twitter.com/
@@ -44,6 +51,21 @@ From the command line, quickly and easily find a tweet matching some keywords an
 
   ```
   cp config_SAMPLE.js config.js
+  ```
+
+  config.js
+  ```
+  module.exports = {
+    keywords: 'Giveaway! like to enter',
+    creds: {
+        consumer_key: '...',
+        consumer_secret: '...',
+        access_token: '...',
+        access_token_secret: '...'
+    },
+    minWaitTime: 400,
+    maxWaitTime: 1200
+  }
   ```
 
   Enter your credentials from twitter as the values for the corresponding fields in `creds` within the config.js file.
@@ -71,13 +93,19 @@ From the command line, quickly and easily find a tweet matching some keywords an
     ```
     npm start
     ```
+
+    Note: be sure to use the `--` before the flags as to pass them to the underlying command for `npm start`
+
+    ```
+    npm start -- --keywords="new york knicks"
+    ```
     
 <br/>
 
 ## Step 3 - Schedule As A Cron Job
 
-  - ### Get a Server
-    This blog post is a nice guide on setting up a new Ubuntu server from Digital Ocean for running cron jobs.
+  - ### Using a Remote Server
+    This [blog post]() is a nice guide on setting up a new Ubuntu server from Digital Ocean for running cron jobs.
     
     These can also be scheduled on your local machine, but they won't run if it is turned off or asleep.
     
@@ -94,14 +122,27 @@ From the command line, quickly and easily find a tweet matching some keywords an
     
     The below example schedules the script to ONLY like a tweet found with the default search keywords every day at 4:05pm. 
     ```
-    5 4 * * * npm start --no-retweet --no-follow
+    # My applesauce tweeting cronjob  
+      */12 * * * * cd ~/Git-Projects/Plug-N-Play-Twitter-Engager && ./run-twitter-engager.sh --keywords=\"applesauce\"
     ```
     
+    ## Bash Script
+    Sometimes when running in a cron environment you need to "setup" again (navigate to the proejct directory, load nvm and node into the PATH, etc.)
+
     _Note: Although the node process uses Winston to write logs to the project's `logs` folder, you can pipe the output of the crontab execution which can be helpful for debugging inproperly running jobs:_
     ```
-     5 4 * * * npm start --no-retweet --no-follow ~/path/to/project/temporary-cron-logs.log 2&>1
-    ```
+    # My applesauce tweeting cronjob  
+      */12 * * * * cd ~/Git-Projects/Plug-N-Play-Twitter-Engager && ./run-twitter-engager.sh --keywords=\"applesauce\ >> ~/Git-Projects/Plug-N-Play-Twitter-Engager/logs/cron-logs_`date +\%Y-\%m-\%d`.log 2>&1"
     
+    _Note the use of backlashes to escape the quotes when passing arguments to the bash file._
+
+
+There is a bash file included in this project, and you can conveniently pass all the arguments you would pass to `npm start` along when you execute the shell script and it will call `npm start` with these additional arguments.
+
+For example:
+```
+./run-twitter-engager.sh --keywords=\"I like pizza\"
+```
 You may find that the cron execution environment does not have access to necessary things such as `nvm`. In this case it is recommended to schedule the cron job to execute a bash file which calls `npm start` after the proper setup instead of running the `npm start` command directly. Create a bash file like the one included here and allow your shell's current user to execute it.
 ```
 chmod +x run-twitter-engager.sh
@@ -137,16 +178,6 @@ In order to simulate actual user interactions on Twitter, the requests for like,
 The defaults for `minWaitTime` and `maxWaitTime` are 400 and 1100 milliseconds, respectively, and you can change these values by setting them differently in the `config.js` file or via the command line flags.
 
 <br/>
-
-## Bash Script
-Sometimes when running in a cron environment you need to "setup" again (navigate to the proejct directory, load nvm and node into the PATH, etc.)
-
-There is a bash file in this project, and you can conveniently pass all the arguments you would pass to `npm start` along when you execute the shell script and it will call `npm start` with these additional arguments.
-
-For example:
-```
-./run-twitter-engager.sh --keywords="I like pizza"
-```
 
 
 ## Logs

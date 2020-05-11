@@ -2227,3 +2227,148 @@
 {"message":"Followed User! https://twitter.com/intent/user?user_id=1252255497413148677","level":"info"}
 {"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
 {"message":"mem used: 49.9mb","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:51:16 PM","level":"info"}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: Giveaway! like to enter","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: undefined","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: undefined","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: Giveaway! like to enter -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 78","level":"info"}
+{"message":"Tweet favorited property: false","level":"info"}
+{"message":"Calculated random amount of time within bounds: 495","level":"info"}
+{"message":"Calculated random amount of time within bounds: 442","level":"info"}
+{"message":"Liked tweet! https://twitter.com/_/status/1259887432566276097","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1259887432566276097","level":"info"}
+{"message":"Followed User! https://twitter.com/intent/user?user_id=15504971","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: 51.0mb","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:51:32 PM","level":"info"}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: pizza party","level":"info"}
+{"message":"--max-wait-time: 400","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: --no-like","level":"info"}
+{"message":"--no-retweet: --no-retweet","level":"info"}
+{"message":"--no-follow: --no-follow","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: pizza party -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 88","level":"info"}
+{"message":"Tweet favorited property: false","level":"info"}
+{"message":"Calculated random amount of time within bounds: 969","level":"info"}
+{"message":"Calculated random amount of time within bounds: 1100","level":"info"}
+{"message":"NOT liking because --no-like flag was found.","level":"info"}
+{"message":"NOT retweeting because --no-retweet flag was found.","level":"info"}
+{"message":"NOT following because --no-follow flag was found.","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: 50.0mb","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:54:09 PM","level":"info"}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: pizza party","level":"info"}
+{"message":"--max-wait-time: 100","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: --no-like","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: --no-follow","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: pizza party -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 88","level":"info"}
+{"message":"Tweet favorited property: false","level":"info"}
+{"message":"Calculated random amount of time within bounds: 151","level":"info"}
+{"message":"Calculated random amount of time within bounds: 927","level":"info"}
+{"message":"NOT liking because --no-like flag was found.","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1259885363297845251","level":"info"}
+{"message":"NOT following because --no-follow flag was found.","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: 49.7mb","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:55:46 PM","level":"info"}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: pizza party","level":"info"}
+{"message":"--max-wait-time: 100","level":"info"}
+{"message":"--min-wait-time: 1200","level":"info"}
+{"message":"--no-like: --no-like","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: --no-follow","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: pizza party -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 68","level":"info"}
+{"message":"Tweet favorited property: false","level":"info"}
+{"message":"Calculated random amount of time within bounds: 1118","level":"info"}
+{"message":"Calculated random amount of time within bounds: 843","level":"info"}
+{"message":"NOT liking because --no-like flag was found.","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1259900773380456449","level":"info"}
+{"message":"NOT following because --no-follow flag was found.","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: 50.4mb","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:56:35 PM","level":"info"}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: pizza party","level":"info"}
+{"message":"--max-wait-time: 1200","level":"info"}
+{"message":"--min-wait-time: 100","level":"info"}
+{"message":"--no-like: --no-like","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: --no-follow","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: pizza party -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 41","level":"info"}
+{"message":"Tweet favorited property: false","level":"info"}
+{"message":"Calculated random amount of time within bounds: 762","level":"info"}
+{"message":"Calculated random amount of time within bounds: 800","level":"info"}
+{"message":"NOT liking because --no-like flag was found.","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1259919235670777858","level":"info"}
+{"message":"NOT following because --no-follow flag was found.","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: 50.1mb","level":"info"}
+{"message":"Starting Twitter Engager!","level":"info"}
+{"message":"Current date & time in New York: 5/11/2020, 4:57:49 PM","level":"info"}
+{"message":"Command line arg values:","level":"info"}
+{"message":"--keywords: pizza party","level":"info"}
+{"message":"--max-wait-time: 1200","level":"info"}
+{"message":"--min-wait-time: 100","level":"info"}
+{"message":"--no-like: --no-like","level":"info"}
+{"message":"--no-retweet: undefined","level":"info"}
+{"message":"--no-follow: --no-follow","level":"info"}
+{"message":"--quiet: undefined","level":"info"}
+{"message":"\nInitializing twitter...","level":"info"}
+{"message":"Getting newest unliked matching tweet...","level":"info"}
+{"message":"searching for: pizza party -filter:retweets","level":"info"}
+{"message":"statuses found: 100","level":"info"}
+{"message":"After filtering out already liked tweets: 100","level":"info"}
+{"message":"Randomly chose tweet at index: 97","level":"info"}
+{"message":"Tweet favorited property: false","level":"info"}
+{"message":"Calculated random amount of time within bounds: 300","level":"info"}
+{"message":"Calculated random amount of time within bounds: 138","level":"info"}
+{"message":"NOT liking because --no-like flag was found.","level":"info"}
+{"message":"Retweeted tweet! https://twitter.com/_/status/1259875326622150661","level":"info"}
+{"message":"NOT following because --no-follow flag was found.","level":"info"}
+{"message":"\n\nTwitter Engager has completed successfully! 🤖\n","level":"info"}
+{"message":"mem used: 50.0mb","level":"info"}
+{"message":"Starting in quiet mode...","level":"info"}

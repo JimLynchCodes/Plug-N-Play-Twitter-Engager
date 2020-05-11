@@ -26,8 +26,8 @@ engage = async () => {
 
             logger.info('Command line arg values:')
             logger.info('--keywords: ' + keywords)
-            logger.info('--max-wait-time: ' + minWaitTime)
-            logger.info('--min-wait-time: ' + maxWaitTime)
+            logger.info('--max-wait-time: ' + maxWaitTime)
+            logger.info('--min-wait-time: ' + minWaitTime)
             logger.info('--no-like: ' + noLikesArg)
             logger.info('--no-retweet: ' + noRetweetArg)
             logger.info('--no-follow: ' + noFollowArg)
