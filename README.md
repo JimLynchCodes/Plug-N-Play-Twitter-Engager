@@ -26,13 +26,15 @@ The script should do this:
 
 <br/>
 
-# Usage Guide
+## Usage Guide
 
 #### - Step 1 - Plug in Your Credentials.
 
 #### - Step 2 - Run the Twitter Engager 
 
 #### - Step 3 (Optional) - Schedule as a Cron Job.
+
+<br/>
 
 ## Step 1 - Plug in Your Credentials.
 
