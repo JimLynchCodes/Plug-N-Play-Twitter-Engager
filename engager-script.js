@@ -5,16 +5,17 @@ const getNewestUnlikedMatchingTweet = require('./twit-functions/get-newest-unlik
 const likeTweet = require('./twit-functions/like-tweet')
 const retweetTweet = require('./twit-functions/retweet-tweet')
 const followUser = require('./twit-functions/follow-user')
-const config = require('./config.js');
+const config = require('./config.js')
 const constants = require('./constants')
 
 engage = async () => {
 
     return new Promise(async resolve => {
         try {
+
             const args = process.argv.slice(2)
 
-            const keywords = getArgValues(args, constants.KEYWORDS_FLAG) || config.keywords 
+            const keywords = getArgValues(args, constants.KEYWORDS_FLAG) || config.keywords
             const minWaitTime = parseInt(getArgValues(args, constants.MIN_WAIT_TIME_FLAG) || config.minWaitTime)
             const maxWaitTime = parseInt(getArgValues(args, constants.MAX_WAIT_TIME_FLAG) || config.maxWaitTime)
             const quietFlag = args.find(arg => arg.includes(constants.QUIET_FLAG))
@@ -23,11 +24,10 @@ engage = async () => {
             const noRetweetArg = args.find(arg => arg.includes(constants.NO_RETWEET_FLAG))
             const noFollowArg = args.find(arg => arg.includes(constants.NO_FOLLOW_FLAG))
 
-
             logger.info('Command line arg values:')
             logger.info('--keywords: ' + keywords)
-            logger.info('--max-wait-time: ' + minWaitTime)
-            logger.info('--min-wait-time: ' + maxWaitTime)
+            logger.info('--max-wait-time: ' + maxWaitTime)
+            logger.info('--min-wait-time: ' + minWaitTime)
             logger.info('--no-like: ' + noLikesArg)
             logger.info('--no-retweet: ' + noRetweetArg)
             logger.info('--no-follow: ' + noFollowArg)
@@ -40,10 +40,10 @@ engage = async () => {
             logger.info('Getting newest unliked matching tweet...')
 
             const tweet = await getNewestUnlikedMatchingTweet(Twitter, keywords)
-            
+
             /** Use below logging to see the full tweet object from Twitter. */
             // logger.info(`Fulltweet: ${JSON.stringify(tweet, null, 2)}`)
-            
+
             logger.info(`Tweet favorited property: ${tweet.favorited}`)
 
             const tweetId = tweet.id_str
@@ -56,27 +56,24 @@ engage = async () => {
             if (noLikesArg)
                 logger.info('NOT liking because --no-like flag was found.')
 
-            else {
+            else
                 await likeTweet(Twitter, tweetId)
-            }
 
             setTimeout(async () => {
 
                 if (noRetweetArg)
                     logger.info('NOT retweeting because --no-retweet flag was found.')
 
-                else {
+                else
                     await retweetTweet(Twitter, tweetId)
-                }
 
                 setTimeout(async () => {
 
                     if (noFollowArg)
                         logger.info('NOT following because --no-follow flag was found.')
 
-                    else {
+                    else
                         await followUser(Twitter, tweeterId)
-                    }
 
                     resolve('success!')
 

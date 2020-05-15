@@ -8,7 +8,7 @@ module.exports = {
     },
     minWaitTime: 400,
     maxWaitTime: 1200
-};
+}
 
 // Copy this code into a config.js and enter creds.
 
