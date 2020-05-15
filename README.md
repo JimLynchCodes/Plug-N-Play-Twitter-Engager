@@ -99,7 +99,7 @@ From the command line, quickly and easily find a tweet matching some keywords an
     
     _Note: Although the node process uses Winston to write logs to the project's `logs` folder, you can pipe the output of the crontab execution which can be helpful for debugging inproperly running jobs:_
     ```
-     5 4 * * * npm start --no-retweet --no-follow ~/path/to/project/temporary-cron-logs.log 2&>1
+     5 4 * * * npm start --no-retweet --no-follow >> ~/path/to/project/temporary-cron-logs.log 2&>1
     ```
     
 You may find that the cron execution environment does not have access to necessary things such as `nvm`. In this case it is recommended to schedule the cron job to execute a bash file which calls `npm start` after the proper setup instead of running the `npm start` command directly. Create a bash file like the one included here and allow your shell's current user to execute it.

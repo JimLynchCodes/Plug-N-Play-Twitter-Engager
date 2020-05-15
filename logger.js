@@ -1,6 +1,6 @@
 const winston = require('winston');
 
-const today = new Date('Jun 5 2016').
+const today = new Date().
   toLocaleString('en-us', { year: 'numeric', month: '2-digit', day: '2-digit' }).
   replace(/(\d+)\/(\d+)\/(\d+)/, '$3-$1-$2');
 
