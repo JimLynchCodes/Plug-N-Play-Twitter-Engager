@@ -72,8 +72,8 @@ engage = async () => {
                     if (noFollowArg)
                         logger.info('NOT following because --no-follow flag was found.')
 
-                    else
-                        await followUser(Twitter, tweeterId)
+                    // else
+                    //     await followUser(Twitter, tweeterId)
 
                     resolve('success!')
 
