@@ -1,6 +1,7 @@
 const logger = require('./../logger')
+const getRandomHighEnoughSentimentTweet = require('./get-random-high-enough-sentiment-tweet').getRandomHighEnoughSentimentTweet
 
-const getNewestUnlikedMatchingTweet = (Twitter, keywords) => {
+const getNewestUnlikedMatchingTweetHighEnoughSentiment = (Twitter, keywords, minSentimentArg) => {
 
     return new Promise((resolve, reject) => {
 
@@ -15,7 +16,7 @@ const getNewestUnlikedMatchingTweet = (Twitter, keywords) => {
 
         logger.info('searching for: ' + params.q)
 
-        Twitter.get('search/tweets', params, (err, data) => {
+        Twitter.get('search/tweets', params, async (err, data) => {
 
             if (err) {
                 logger.error('err', err)
@@ -31,18 +32,26 @@ const getNewestUnlikedMatchingTweet = (Twitter, keywords) => {
 
             logger.info('After filtering out already liked tweets: ' + notAlreadyLikedStatuses.length)
 
-            const randIndex = Math.floor(Math.random() * notAlreadyLikedStatuses.length)
+            // const randIndex = Math.floor(Math.random() * notAlreadyLikedStatuses.length)
 
-            logger.info('Randomly chose tweet at index: ' + randIndex)
+            // logger.info('Randomly chose tweet at index: ' + randIndex)
 
-            const chosenTweet = notAlreadyLikedStatuses[randIndex]
+            // try {
+                const chosenHighSentimentTweet = await getRandomHighEnoughSentimentTweet(notAlreadyLikedStatuses, minSentimentArg) 
+                console.log('min-sentiment: ', chosenHighSentimentTweet)
+                
+                console.log('tweet is: ', chosenHighSentimentTweet)
 
-            resolve(chosenTweet)
-
+                resolve(chosenHighSentimentTweet)
+            // }
+            // catch(err) {
+            //     logger.error('No matching tweets found above the minimum sentiment of ' + minSentimentArg + ' ' + err)
+            //     throw 'No matching tweets found above the minimum sentiment of ' + minSentimentArg + ' ' + err
+            // }
         })
 
     })
 }
 
-module.exports = getNewestUnlikedMatchingTweet
+module.exports = getNewestUnlikedMatchingTweetHighEnoughSentiment
 

@@ -66,7 +66,8 @@ The script should do this:
         access_token_secret: '...'
     },
     minWaitTime: 400,
-    maxWaitTime: 1200
+    maxWaitTime: 1200,
+    minSentiment: 1
   }
   ```
 
@@ -179,6 +180,11 @@ npm start -- --keywords="love Javascript" --no-like --no-follow --no-retweet --m
 In order to simulate actual user interactions on Twitter, the requests for like, retweet, and follow are not executed simultaneously. Instead, the _like_ is executed immediately, and then a random amount of time betwen the `minWaitTime` and `maxWaitTime` goes by. After this, the _retweet_ is executed, a new random amount of time within bounds in chosen, and after waiting this much time the _follow_ is executed.
 
 The defaults for `minWaitTime` and `maxWaitTime` are 400 and 1100 milliseconds, respectively, and you can change these values by setting them differently in the `config.js` file or via the command line flags.
+
+<br/>
+
+
+## Sentiment!
 
 <br/>
 
