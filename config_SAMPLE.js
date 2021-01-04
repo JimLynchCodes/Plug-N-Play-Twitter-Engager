@@ -7,7 +7,8 @@ module.exports = {
         access_token_secret: '...'
     },
     minWaitTime: 400,
-    maxWaitTime: 1200
+    maxWaitTime: 1200,
+    minSentiment: 1,
 }
 
 // Copy this code into a config.js and enter creds.

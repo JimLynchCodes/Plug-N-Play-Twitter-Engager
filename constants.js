@@ -5,5 +5,6 @@ module.exports = {
     NO_FOLLOW_FLAG: '--no-follow',
     MIN_WAIT_TIME_FLAG: '--min-wait-time',
     MAX_WAIT_TIME_FLAG: '--max-wait-time',
-    QUIET_FLAG: '--quiet'
+    QUIET_FLAG: '--quiet',
+    MIN_SENTIMENT_FLAG: '--min-sentiment'
 }

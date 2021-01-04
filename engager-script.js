@@ -1,7 +1,7 @@
 
 const logger = require('./logger')
 const initializeWithCreds = require('./twit-functions/initilize-with-creds')
-const getNewestUnlikedMatchingTweet = require('./twit-functions/get-newest-unliked-matching-tweet')
+const getNewestUnlikedMatchingTweetHighEnoughSentiment = require('./twit-functions/get-newest-unliked-matching-tweet')
 const likeTweet = require('./twit-functions/like-tweet')
 const retweetTweet = require('./twit-functions/retweet-tweet')
 const followUser = require('./twit-functions/follow-user')
@@ -19,11 +19,12 @@ engage = async () => {
             const minWaitTime = parseInt(getArgValues(args, constants.MIN_WAIT_TIME_FLAG) || config.minWaitTime)
             const maxWaitTime = parseInt(getArgValues(args, constants.MAX_WAIT_TIME_FLAG) || config.maxWaitTime)
             const quietFlag = args.find(arg => arg.includes(constants.QUIET_FLAG))
-
+            
             const noLikesArg = args.find(arg => arg.includes(constants.NO_LIKE_FLAG))
             const noRetweetArg = args.find(arg => arg.includes(constants.NO_RETWEET_FLAG))
             const noFollowArg = args.find(arg => arg.includes(constants.NO_FOLLOW_FLAG))
-
+            const minSentimentArg = getArgValues(args, constants.MIN_SENTIMENT_FLAG) || config.minSentiment
+            
             logger.info('Command line arg values:')
             logger.info('--keywords: ' + keywords)
             logger.info('--max-wait-time: ' + maxWaitTime)
@@ -32,6 +33,7 @@ engage = async () => {
             logger.info('--no-retweet: ' + noRetweetArg)
             logger.info('--no-follow: ' + noFollowArg)
             logger.info('--quiet: ' + quietFlag)
+            logger.info('--min-sentiment: ' + minSentimentArg)
 
             logger.info('\nInitializing twitter...')
 
@@ -39,7 +41,7 @@ engage = async () => {
 
             logger.info('Getting newest unliked matching tweet...')
 
-            const tweet = await getNewestUnlikedMatchingTweet(Twitter, keywords)
+            const tweet = await getNewestUnlikedMatchingTweetHighEnoughSentiment(Twitter, keywords, minSentimentArg)
 
             /** Use below logging to see the full tweet object from Twitter. */
             // logger.info(`Fulltweet: ${JSON.stringify(tweet, null, 2)}`)
